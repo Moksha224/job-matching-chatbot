@@ -18,12 +18,4 @@ def get_live_jobs(skill):
         return jobs
     else:
         return []
-if all_jobs:
-    for job in all_jobs:
-        st.markdown(f"### {job['job_title']} at {job['employer_name']}")
-        st.markdown(f"📍 {job.get('job_city', '')}, {job.get('job_country', '')}")
-        st.markdown(f"🔗 [Apply Here]({job['job_apply_link']})")
-        st.markdown("---")
-else:
-    st.info("No jobs found. Try changing the skills or check your API key.")
 
