@@ -67,9 +67,9 @@ Job Matching Chatbot helps users discover suitable job opportunities by analyzin
    pip install -r requirements.txt
 
 3. **Add your API key**
-  Create a file named .streamlit/secrets.toml:
-  ```toml
-  RAPIDAPI_KEY = "your_actual_api_key_here"
+   Create a file named .streamlit/secrets.toml:
+   ```toml
+   RAPIDAPI_KEY = "your_actual_api_key_here"
 
 ---
 
