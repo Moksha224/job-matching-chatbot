@@ -76,6 +76,15 @@ Job Matching Chatbot helps users discover suitable job opportunities by analyzin
 
 ---
 
+## ▶️ How to Run
+
+  **✅ Run Locally**
+  
+    ```bash
+    streamlit run app.py
+
+---
+
 ## 🚀 Deploy on Streamlit Cloud
 
 1. **Push the project to your GitHub repo.**
@@ -95,9 +104,13 @@ Job Matching Chatbot helps users discover suitable job opportunities by analyzin
 
 ## 💬 Sample Interaction
 📄 You upload your resume...
+
 🧠 Skills Extracted: ['Python', 'Machine Learning', 'SQL']
+
 🎯 Top Job Match (from dataset): Data Analyst
+
 🌐 Live Job: "ML Engineer at OpenAI"
+
 🔗 Apply Here: https://example.com/apply
 
 ---
