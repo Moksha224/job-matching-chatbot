@@ -22,7 +22,7 @@ How to Run
 Evaluation Results
 
 Future Improvements
-## 🧠 Overview
+## Overview
 The Job Matching Chatbot is an AI-powered assistant that helps users find jobs that match their skills and experiences. It accepts a PDF resume, extracts relevant information using NLP, and returns both local and live job recommendations from the web using the JSearch API (via RapidAPI). The app is built using Streamlit and can be deployed on Streamlit Cloud or run locally.
 ## 🧰 Tech Stack
 Frontend: Streamlit
