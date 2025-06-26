@@ -67,9 +67,26 @@ Job Matching Chatbot helps users discover suitable job opportunities by analyzin
    pip install -r requirements.txt
 
 3. **Add your API key**
-   Create a file named .streamlit/secrets.toml:
+   - Create a file named .streamlit/secrets.toml:
    ```toml
    RAPIDAPI_KEY = "your_actual_api_key_here"
+
+---
+
+## 🚀 Deploy on Streamlit Cloud
+
+1. **Push the project to your GitHub repo.**
+
+2. **Go to https://streamlit.io/cloud.**
+
+3. **Click "New App", select the repo.**
+
+4. **Go to Settings → Secrets and add:**
+
+   ```toml
+   RAPIDAPI_KEY = "your_actual_api_key_here"
+
+5. **Click Deploy — your chatbot will be live!**
 
 ---
 
