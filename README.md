@@ -57,16 +57,19 @@ Job Matching Chatbot helps users discover suitable job opportunities by analyzin
 
 ## ⚙️ Setup Instructions
 
-1. **Clone the Repository**  
+1. **Clone the Repository**
+   
    ```bash
    git clone https://github.com/yourusername/job-matching-chatbot.git
    cd job-matching-chatbot
 
 2. **Install Dependencies**
+
    ```bash
    pip install -r requirements.txt
 
 3. **Add your API key**
+
    - Create a file named .streamlit/secrets.toml:
    ```toml
    RAPIDAPI_KEY = "your_actual_api_key_here"
