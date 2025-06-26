@@ -1,0 +1,4 @@
+streamlit
+pymupdf
+flashtext
+scikit-learn
