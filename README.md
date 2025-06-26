@@ -5,7 +5,7 @@ An AI-powered chatbot that analyzes resumes and recommends jobs by matching extr
 
 
 ## Table of content
-Overview
+[Overview](Overview)
 
 Tech Stack
 
