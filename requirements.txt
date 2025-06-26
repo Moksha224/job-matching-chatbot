@@ -2,3 +2,4 @@ streamlit
 pymupdf
 flashtext
 scikit-learn
+requests
