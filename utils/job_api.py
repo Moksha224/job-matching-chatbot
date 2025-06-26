@@ -5,7 +5,7 @@ def get_live_jobs(skill):
     querystring = {"query": skill, "page": "1", "num_pages": "1"}
 
     headers = {
-        "X-RapidAPI-Key": "your_api_key_here",   # ← Replace with your real key
+        "X-RapidAPI-Key": "de6f9ef636msh1e1ad8ff49e213ep1f7c3cjsn704dae3fa2f6",   # ← Replace with your real key
         "X-RapidAPI-Host": "jsearch.p.rapidapi.com"
     }
 
