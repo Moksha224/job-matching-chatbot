@@ -1,3 +1,5 @@
+from utils.job_api import get_live_jobs
+
 import streamlit as st
 import json
 from utils.resume_parser import extract_text_from_pdf
@@ -30,3 +32,21 @@ if uploaded_file:
         job = job_data[i]
         st.markdown(f"### {job['title']}")
         st.markdown(highlight_matches(job["description"], skills))
+
+st.subheader("🌐 Live Job Recommendations")
+
+if skills:
+    all_jobs = []
+    
+    for skill in skills:
+        try:
+            jobs = get_live_jobs(skill)
+            all_jobs.extend(jobs[:2])  # Get top 2 jobs per skill
+        except Exception as e:
+            st.error(f"Error fetching jobs for {skill}: {e}")
+
+    for job in all_jobs:
+        st.markdown(f"### {job['job_title']} at {job['employer_name']}")
+        st.markdown(f"📍 {job.get('job_city', '')}, {job.get('job_country', '')}")
+        st.markdown(f"🔗 [Apply Here]({job['job_apply_link']})")
+        st.markdown("---")
