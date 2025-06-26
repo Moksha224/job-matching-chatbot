@@ -6,15 +6,18 @@
 
 ## 📘 Table of Contents
 
-- [Overview](#overview)  
-- [Tech Stack](#tech-stack)  
-- [Prerequisites](#prerequisites)  
-- [Features](#features)  
-- [Setup Instructions](#setup-instructions)  
-- [How to Run](#how-to-run)  
-- [💬 Sample Interaction](#sample-interaction)  
-- [Evaluation Results](#evaluation-results)  
+- [Overview](#overview)
+- [Tech Stack](#tech-stack)
+- [Prerequisites](#prerequisites)
+- [Features](#features)
+- [Setup Instructions](#setup-instructions)
+- [How to Run](#how-to-run)
+- [Sample Interaction](#sample-interaction)
+- [Evaluation Results](#evaluation-results)
 - [Future Improvements](#future-improvements)
+- [Author](#author)
+- [License](#license)
+
 
 ---
 
