@@ -21,7 +21,7 @@
 
 ---
 
-## 🧠 Overview
+##  Overview
 
 Job Matching Chatbot helps users discover suitable job opportunities by analyzing their resumes using NLP. It recommends relevant jobs from a local dataset as well as live job listings fetched via the JSearch API.
 
