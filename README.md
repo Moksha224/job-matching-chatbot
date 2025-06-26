@@ -1,29 +1,27 @@
-#Project name
 🤖 Job Matching Chatbot
+📘 Table of Contents
+Overview
 
-##📘 Table of Contents
--[Overview]_(#overview)
+Tech Stack
 
--[Tech Stack]_(#tech_stack)
+Prerequisites
 
--[Prerequisites]_(#prerequisites)
+Features
 
--[Features]_(#features)
+Setup Instructions
 
--[Setup Instructions]_(#setup_instructions)
+How to Run
 
--[How to Run]_(#ho_to_run)
+💬 Sample Interaction
 
--[💬 Sample Interaction]_(#sample_interaction)
+Evaluation Results
 
--[Evaluation Results]_(#evaluation_results)
+Future Improvements
 
--[Future Improvements]_(#future_improvements)
-
-##🧠 Overview
+🧠 Overview
 The Job Matching Chatbot is an AI-powered assistant that helps users find jobs that match their skills and experiences. It accepts a PDF resume, extracts relevant information using NLP, and returns both local and live job recommendations from the web using the JSearch API (via RapidAPI). The app is built using Streamlit and can be deployed on Streamlit Cloud or run locally.
 
-##🧰 Tech Stack
+🧰 Tech Stack
 Frontend: Streamlit
 
 Backend Logic: Python (NLP + APIs)
@@ -34,7 +32,7 @@ Job Fetching: JSearch API via RapidAPI
 
 Hosting: Streamlit Cloud
 
-##📋 Prerequisites
+📋 Prerequisites
 Python 3.10 or above
 
 A RapidAPI account and JSearch API key
@@ -43,7 +41,7 @@ GitHub account (for deployment to Streamlit Cloud)
 
 Basic knowledge of Streamlit (helpful but not required)
 
-##✨ Features
+✨ Features
 📄 Upload PDF Resume
 
 🧠 Skill Extraction from Resume Text
@@ -56,31 +54,31 @@ Basic knowledge of Streamlit (helpful but not required)
 
 📎 Simple and Clean UI using Streamlit
 
-##⚙️ Setup Instructions
-1.Clone the Repository
+⚙️ Setup Instructions
+Clone the Repository
 
 bash
 Copy
 Edit
 git clone https://github.com/yourusername/job-matching-chatbot.git
 cd job-matching-chatbot
-2.Install Dependencies
+Install Dependencies
 
 bash
 Copy
 Edit
 pip install -r requirements.txt
-3.Add Your RapidAPI Key
+Add Your RapidAPI Key
 Create a .streamlit/secrets.toml file with:
 
 toml
 Copy
 Edit
 RAPIDAPI_KEY = "your_actual_api_key"
-4.(Optional) Add Job Dataset
+(Optional) Add Job Dataset
 Ensure data/jobs.json exists for local job matching (sample included).
 
-##▶️ How to Run
+▶️ How to Run
 To run the app locally:
 
 bash
@@ -97,7 +95,7 @@ Link your repo and deploy!
 
 Add your API key under “Settings → Secrets”
 
-##💬 Sample Interaction
+💬 Sample Interaction
 java
 Copy
 Edit
@@ -106,14 +104,14 @@ Edit
 🎯 Top Job Match (from dataset): Data Analyst
 🌐 Live Job: "ML Engineer at OpenAI"
 🔗 Apply Here: https://example.com/apply
-##📊 Evaluation Results
+📊 Evaluation Results
 🔍 Skill Extraction Accuracy: ~92% (based on test resumes)
 
 🎯 Job Matching Precision: ~88% match relevance using TF-IDF similarity
 
 ⚡ Live API Latency: ~300ms (RapidAPI)
 
-##🔮 Future Improvements
+🔮 Future Improvements
 Integrate LinkedIn and Indeed scraping for broader job sources
 
 Add ChatGPT-based resume feedback and optimization
@@ -123,3 +121,6 @@ Support for DOCX resumes and multilingual parsing
 User authentication and history tracking
 
 Smart job alerts and email notifications
+
+✅ Want to try it now?
+👉 Live demo: https://yourname-job-matching-chatbot.streamlit.app
