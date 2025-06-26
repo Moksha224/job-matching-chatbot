@@ -27,7 +27,7 @@ Job Matching Chatbot helps users discover suitable job opportunities by analyzin
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 - **Frontend:** Streamlit  
 - **Backend:** Python (NLP, API Integration)  
@@ -38,7 +38,7 @@ Job Matching Chatbot helps users discover suitable job opportunities by analyzin
 
 ---
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Python 3.10+
 - RapidAPI key (JSearch API)
@@ -47,7 +47,7 @@ Job Matching Chatbot helps users discover suitable job opportunities by analyzin
 
 ---
 
-## ✨ Features
+##  Features
 
 - 📄 Upload PDF Resume
 - 🧠 Extract Skills from Resume using NLP
@@ -58,7 +58,7 @@ Job Matching Chatbot helps users discover suitable job opportunities by analyzin
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 1. **Clone the Repository**
    
@@ -79,7 +79,7 @@ Job Matching Chatbot helps users discover suitable job opportunities by analyzin
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
   **✅ Run Locally**
   
@@ -88,7 +88,7 @@ Job Matching Chatbot helps users discover suitable job opportunities by analyzin
 
 ---
 
-## 🚀 Deploy on Streamlit Cloud
+##  Deploy on Streamlit Cloud
 
 1. **Push the project to your GitHub repo.**
 
@@ -105,7 +105,7 @@ Job Matching Chatbot helps users discover suitable job opportunities by analyzin
 
 ---
 
-## 💬 Sample Interaction
+##  Sample Interaction
 📄 You upload your resume...
 
 🧠 Skills Extracted: ['Python', 'Machine Learning', 'SQL']
@@ -119,7 +119,7 @@ Job Matching Chatbot helps users discover suitable job opportunities by analyzin
 ---
 
 
-## 📊 Evaluation Results
+##  Evaluation Results
 🔍 Skill Extraction Accuracy: ~92% (based on test resumes)
 
 🎯 Job Matching Precision: ~88% match relevance using TF-IDF similarity
@@ -128,7 +128,7 @@ Job Matching Chatbot helps users discover suitable job opportunities by analyzin
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 - Integrate LinkedIn and Indeed scraping for broader job sources
 
 - Add ChatGPT-based resume feedback and optimization
